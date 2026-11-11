@@ -1,0 +1,19 @@
+/* prooflane layout compositions (phase 2). Loaded after identity.css. */
+.pl-issue{display:flex;justify-content:space-between;border-top:1px solid var(--ink);border-bottom:1px solid var(--line);padding:.5rem 0;font:600 .72rem var(--font-body);letter-spacing:.3em;text-transform:uppercase;color:var(--muted);margin-bottom:2rem}
+.pl-issue span:first-child{color:var(--ink);font:italic 500 1.2rem var(--font-display);letter-spacing:0;text-transform:none}
+.pl-strip{display:grid;gap:.75rem;background:#000;padding:1.5rem 1rem;position:relative}
+.pl-strip::before,.pl-strip::after{content:"";position:absolute;left:0;right:0;height:10px;background:repeating-linear-gradient(90deg,#000 0 8px,#F2C14E 8px 10px,#000 10px 18px)}
+.pl-strip::before{top:0}.pl-strip::after{bottom:0}
+.pl-frame{margin:0;background:var(--card);border:1px solid var(--line);padding:.8rem 1rem;display:grid;grid-template-columns:auto 1fr;gap:.8rem;align-items:start}
+.pl-frame span{font:600 .72rem ui-monospace,monospace;color:#F2C14E}
+.pl-frame figcaption{font-size:.95rem}
+.pl-strip .card-fade{margin:0;color:var(--muted)}
+.pl-sheet .journey-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2px;background:var(--line);border:2px solid var(--line)}
+.pl-sheet .journey-card{border:0;border-radius:0;margin:0}
+.pl-sheet .journey-step{border-radius:0}
+.pl-q{font:italic 500 1.4rem var(--font-display);margin:0 0 .6rem;color:#F2C14E}
+.page-quiz .tiny.muted{display:none}
+.pl-mast{border-bottom:1px solid var(--line);padding-bottom:1.5rem;margin-bottom:1.5rem}
+.page-results .plan-preview,.page-results .plan-full{display:grid;gap:2px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));background:var(--line)}
+.page-results .plan-preview>h2,.page-results .plan-full>h2,.page-results .plan-full>p{grid-column:1/-1;background:var(--bg);margin:0;padding:.75rem 0}
+.pl-fr{margin:0}
