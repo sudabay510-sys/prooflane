@@ -1,0 +1,41 @@
+/* ProofLane identity layer, Nov 2026 refresh: Editorial darkroom magazine. Loaded after brand.css; visual only. */
+:root{--bg:#121212;--bg-alt:#181818;--card:#1A1A1A;--ink:#F4EFE6;--muted:#B3AB9F;--line:#3A3632;--accent:#E2543E;--accent-2:#F06A55;--on-accent:#121212;--hi:#F2C14E;--radius:2px;--focus:#F2C14E;
+--font-display:'Bodoni Moda', Georgia, serif;--font-body:'Work Sans', system-ui, sans-serif;--tracking:0;--cta-band-bg:#F4EFE6;--cta-band-ink:#121212;--cta-band-btn:#E2543E;--cta-band-btn-ink:#121212;
+--shadow-card:0 14px 34px rgba(0,0,0,.10);--shadow-btn:none}
+body{font-family:var(--font-body);background:var(--bg);color:var(--ink)}
+.skip:focus{background:var(--card);color:var(--ink);outline:3px solid var(--focus)}
+.btn:focus-visible,.choice:focus-within,a:focus-visible,.input:focus{outline:3px solid var(--focus);outline-offset:2px}
+.choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.choice input{accent-color:var(--accent);width:1.15rem;height:1.15rem;flex:none}
+.choice{min-height:3.25rem}
+.btn{min-height:2.75rem}
+.nav a.btn-primary,.nav a.btn-primary:hover{color:var(--on-accent)}
+.safety{border-left-width:6px;border-left-style:solid}
+@media (max-width:560px){.choice{padding:.9rem 1rem}.quiz-q{font-size:1.45rem}}
+
+h1,h2{font-weight:500;letter-spacing:-.01em}h1{font-size:clamp(2.4rem,5.5vw,4.4rem);font-style:italic}
+h3{font-family:var(--font-body);font-weight:600;letter-spacing:.02em}
+.site-header{background:rgba(18,18,18,.92);border-bottom:1px solid var(--line)}
+.hero{background:radial-gradient(500px 300px at 85% 10%,rgba(226,84,62,.22),transparent 65%),var(--bg)}
+.eyebrow{color:#F2C14E;font-family:var(--font-body);letter-spacing:.25em}
+.hero-card,.plan-section,.price-card,.feature,.pill-card,.steps li,.journey-card,.faq-item{background:var(--card);border:1px solid var(--line);border-radius:2px;box-shadow:none}
+.hero-card{padding-top:2.25rem;padding-bottom:2.25rem}
+.hero-card::before,.hero-card::after{content:"";position:absolute;left:0;right:0;height:14px;background:repeating-linear-gradient(90deg,#000 0 10px,#F2C14E 10px 12px,#000 12px 22px);opacity:.85}
+.hero-card::before{top:0}.hero-card::after{bottom:0}
+.plan-preview,.plan-full,.plan-locked{counter-reset:fr}
+.plan-section{counter-increment:fr;position:relative;padding-top:2.1rem}
+.plan-section::before{content:"FRAME " counter(fr,decimal-leading-zero);position:absolute;top:.6rem;left:1.25rem;font:600 .7rem ui-monospace,monospace;letter-spacing:.15em;color:#F2C14E}
+.choices{gap:0;border-top:1px solid var(--line)}
+.choice{border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent}
+.choice:has(input:checked){background:#1F1A18;box-shadow:inset 3px 0 0 var(--accent)}
+.input{background:var(--card);color:var(--ink);border-color:var(--line);border-radius:2px}
+.progress{height:2px;background:var(--line)}.progress-bar{background:var(--accent)}
+.btn{border-radius:0;letter-spacing:.06em;text-transform:uppercase;font-size:.82rem}
+.btn-ghost{color:var(--ink);border-color:var(--ink)}
+.section.alt{background:#181818}
+.step-num,.journey-step{background:transparent;color:#F2C14E;border:1px solid #F2C14E;border-radius:0}
+.lock-banner{background:var(--card);border:1px solid var(--accent);border-radius:2px}
+.site-footer{background:#0C0C0C}
+.badge{border-radius:0}
+.safety{background:#1F1A18;border-color:var(--line);border-left-color:#F2C14E}
+.flash{background:#1F1A18}

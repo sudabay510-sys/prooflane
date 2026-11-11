@@ -107,7 +107,7 @@ BRAND = {
     "checkout_url": "https://solvfix.gumroad.com/l/xugyi",
     "disclaimer_short": "Workflow education only. Not legal advice. No booking or income guarantees.",
     "disclaimer_long": "ProofLane provides general client-workflow education and templates for photographers. It is not affiliated with HoneyBook or any CRM. It does not guarantee inquiries, bookings, or income, and contract outlines are not legal advice — consult a licensed attorney. Payments are processed by Gumroad, not on this site.",
-    "font_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Karla:wght@400;500;700&display=swap",
+    "font_url": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,700;1,6..96,500&family=Work+Sans:wght@400;500;600&display=swap",
     "fonts": ("Cormorant Garamond", "Karla"),
     "questions": Q, "generate_plan": plan,
     "voice": "Quietly confident and editorial, like a seasoned second shooter who keeps everyone on time.",
