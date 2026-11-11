@@ -58,3 +58,24 @@ Quietly confident and editorial, like a seasoned second shooter who keeps everyo
 - Promise more weddings, bookings, or income.
 - Fake testimonials, user counts, stats, or press logos.
 - Countdown timers, “spots left”, or other urgency/scare copy.
+
+
+## Identity refresh (Nov 2026)
+
+Visual layer only (`static/identity.css`, `static/logo.svg`, Google Fonts URL). Quiz questions, plan generation, routes, pricing, checkout/unlock, and safety notes are unchanged.
+
+- **Concept:** Editorial darkroom magazine. A photo-magazine in a darkroom: contact-sheet frames for each workflow stage, safelight red for the leak, and a serif-italic editorial voice.
+- **Type:** Bodoni Moda (display) / Work Sans (body)
+- **Voice:** A seasoned second shooter who keeps everyone on time: refined, warm, exact about days and hours.
+- **Persona (design assumption, not research):** Noor, portrait and family photographer (assumption): Books 4–6 shoots a month. Inquiries come from Instagram; replies slip to day three in busy weeks.
+
+| Color | Hex |
+|---|---|
+| Darkroom ink | `#121212` |
+| Paper | `#F4EFE6` |
+| Safelight red | `#E2543E` |
+| Film edge | `#F2C14E` |
+| Silver | `#B3AB9F` |
+| Rule | `#3A3632` |
+
+Full brand guide, persona, and journey: `quiz-to-plan-redesign/products/prooflane/brand.html`.
